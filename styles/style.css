@@ -1,0 +1,86 @@
+/* body */
+body{
+    margin: 20px 80px  20px;
+    background-color: rgb(243, 239, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* header-section */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(231, 226, 235);
+    height: 80px;
+    align-items: center;
+}
+nav .search{
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    width: 500px;
+}
+.search:focus{
+    padding-right: 45px;
+    border: 2px solid tomato;
+}
+nav ul{
+    display: flex;   
+}
+input{
+    font-size: larger;
+}
+input:focus{
+    background-color: rgb(147, 236, 236);
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(231, 76, 76);
+}
+.search-parent{
+    position: relative;
+}
+.search-parent i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 50px;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+li a:hover{
+    color: rgb(221, 94, 15);
+}
+li a{
+    text-decoration: none;
+}
+/* banner-section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    background-color: antiquewhite;
+    /* padding: 60px; */
+    gap: 400px;
+    margin: 30px 0px;
+    padding: 20px 100px;
+}
+.banner-content{
+    text-align: left;
+}
+.primary-button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: larger;
+    transition: 0.5s;
+    background-color: rgb(192, 54, 155);
+    color: aliceblue;
+}
+.primary-button:hover{
+    background-color: rgb(143, 196, 158);
+    color: red;
+}
